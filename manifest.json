@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Kahoot Bot ChatGPT",
+    "version": "1.0",
+    "description": "Kahoot Bot ChatGPT",
+    "content_scripts": [
+        {
+            "js": ["scripts/content.js"],
+            "matches": ["https://kahoot.it/challenge/?quiz-id=*"]
+        }
+    ]
+}
